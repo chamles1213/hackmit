@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial -scale=1.0">
+    <title>LeiwoWine Ltd Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="images/bitcoin.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="Jobs.html">Jobs</a></li>
+                    <li><a href="pricing.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <hl>Sustainable Winegrowing</hl>
+    <p>How can wineries be more sustainable?
+        <br></br>
+        <br>Be sustainable and learn more</p>
+    <a href="" class="hero-btn">Visit Us to Know MOre</a>
+</div>
+    
+</section>
+
+<!------course---->
+<section class="Wine">
+    <hl>Wine We Offer</hl>
+    <p>Red Wine, Whiskey, Maotai, and more!</p>
+
+    <div class="row">
+        <div class="Wine-col">
+            <h3>Open Hour</h3>
+            <p>12:30PM - 10:30PM</p>
+            <p>Monday - Sunday</p>
+        </div>
+        <div class="Wine-col">
+            <h3>Contact</h3>
+            <p>+853 2845 4510</p>
+        </div>
+        <div class="Wine-col">
+            <h3>location</h3>
+            <p>Rua do Canal Novo 199-201, Est Marg Areia Preta Ed U Wa bl 3 r/c, Macao</p>
+    </div>
+
+
+</section>
+
+
+<!-------client section-->
+
+<section class="Client">
+    <hl>Our Global Client</hl>
+    <p>UK, US, JAPAN, TAIWAN, CHINA, KOREA, NETHERLAND...</p>
+
+    <div class ="row">
+        <div class="Client-col">
+            <img src="images/Flag_of_Macau.svg.png">
+            <div class="layer">
+                <h3><b>MACAU</b></h3>
+            </div>
+
+        </div>
+        </div>
+</section>
+
+<!-------Facilities--->
+
+<section class="facilities">
+    <hl>Below is the top sales</hl>
+    <p>Mclaren Whiskey</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/glenlivet-15-year-old-2006-cask-900791-cask-strength-collection-signatory-whisky.jpg">
+            <h3>Glenlivet 15 Year Old 2006 (cask 900791) - Cask Strength Collection (Signatory) </h3>
+            <p>$ 139</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/the-glenlivet-caribbean-reserve-whisky.jpg">
+            <h3>Caribbean Reserve Single Malt Scotch Whisky 750ml</h3>
+            <p>$ 35.99</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/the-macallan-12-year-old-double-cask-whisky.jpg">
+            <h3>Macallan 12 Yr Double Cask 375ml</h3>
+            <p>$ 49.99</p>
+        </div>
+
+
+
+</section>
+
+<!-------textimonials--->
+
+<section class="testimonials">
+    <hl>What Our Clients Say</hl>
+    <p>Fantastic!</p>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/spongebob-laughing.gif">
+            <div>
+                <p>This is so tasty!!</p>
+                <h3>patrick star</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/498-4985414_patrick-star-cartoon-drawing-image-mr-spongebob-cartoon.png">
+            <div>
+                <p>This is not tasty!!
+                </p>
+                <h3>spongebob</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!------CALL TO ACTION--->
+<section class="cta">
+    <h1>Reach out our local shops to learn more<br>About Wine</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+</section>
+
+<!------Footer--->
+<section class="footer">
+    <h4>About US</h4>
+    <P>Macau Based since 2016</P>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Chamles Choi</p>
+</section>
+
+<!-------JavaScript for Toggle Menu--->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
